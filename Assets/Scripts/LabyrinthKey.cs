@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// using UnityEngine.UI;
+using UnityEngine.UI;
 
 public class LabyrinthKey : Labyrinth
 {
     [SerializeField] private List<GameObject> keys = new List<GameObject>();
     [SerializeField] private GameObject door;
-    // [SerializeField] private Text keyCounterText;
 
     public int keysCollected = 0;
     public int totalKeys;
 
     public static LabyrinthKey Instance { get; private set; }
+
+    private GameObject keyCounterUI;
+    private Text keyCounterText;
 
     private void Awake()
     {
@@ -21,14 +23,21 @@ public class LabyrinthKey : Labyrinth
 
     private void Start()
     {
-        // UpdateKeyCounter();
+        Level level = GetComponentInParent<Level>();
+        if (level != null)
+        {
+            keyCounterUI = level.keyCounterUI;
+            keyCounterText = level.keyCounterText;
+            keyCounterUI.SetActive(true);
+        }
+        UpdateKeyCounter();
     }
 
     public void RegisterKey(GameObject key)
     {
         keys.Add(key);
         totalKeys = keys.Count;
-        // UpdateKeyCounter();
+        UpdateKeyCounter();
     }
 
     public void CollectKey(GameObject key)
@@ -37,7 +46,7 @@ public class LabyrinthKey : Labyrinth
         keys.Remove(key);
         Destroy(key);
         Debug.Log($"Key collected. Total keys collected: {keysCollected}/{totalKeys}");
-        // UpdateKeyCounter();
+        UpdateKeyCounter();
 
         if (keysCollected >= totalKeys)
         {
@@ -45,10 +54,13 @@ public class LabyrinthKey : Labyrinth
         }
     }
 
-    // private void UpdateKeyCounter()
-    // {
-    //     keyCounterText.text = $"Keys: {keysCollected}/{totalKeys}";
-    // }
+    private void UpdateKeyCounter()
+    {
+        if (keyCounterText != null)
+        {
+            keyCounterText.text = $"Keys: {keysCollected}/{totalKeys}";
+        }
+    }
 
     private void OpenDoor()
     {

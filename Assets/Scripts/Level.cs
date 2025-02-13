@@ -79,6 +79,9 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
 
     static readonly string[] phrases = {"Hard Ball to Swallow", "A Piece of Cake", "Balls Goes Up Balls Come Down",  "Balls Doesn't Grow On Trees", "Two Down, One to Go", "Down For The Count"};
 
+    public GameObject keyCounterUI;
+    public Text keyCounterText;
+
     private void Awake()
     {
         instance = this;
@@ -227,7 +230,7 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
 #if UNITY_EDITOR
         //playerState.totalBalls = 1;
 #endif
-
+        keyCounterUI.SetActive(false);
         playerState.totalBallsPerfect = playerState.totalBalls;
 
         playerState.capturedBalls = 0;
