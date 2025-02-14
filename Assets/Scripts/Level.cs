@@ -67,6 +67,10 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
     public Text ballsCountText;
 
     public GameObject gameMenu;
+    public GameObject selectLevelMenu;
+
+    public GameObject keyCounterUI;
+    public Text keyCounterText;
 
     ParticleSystem contactFX;
     ParticleSystem[] contactFXchildren;
@@ -79,8 +83,7 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
 
     static readonly string[] phrases = {"Hard Ball to Swallow", "A Piece of Cake", "Balls Goes Up Balls Come Down",  "Balls Doesn't Grow On Trees", "Two Down, One to Go", "Down For The Count"};
 
-    public GameObject keyCounterUI;
-    public Text keyCounterText;
+
 
     private void Awake()
     {
@@ -128,9 +131,12 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
         rotsum = 0f;
 
         playerState.Load();
+
         //Временный дебаг
-        playerState.level = 0;
+        //playerState.level = 0;
         //-----------------------
+
+        playerState.Load();
 
         playerState.LevelStart();
 
@@ -230,7 +236,9 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
 #if UNITY_EDITOR
         //playerState.totalBalls = 1;
 #endif
+        selectLevelMenu.SetActive(false);
         keyCounterUI.SetActive(false);
+
         playerState.totalBallsPerfect = playerState.totalBalls;
 
         playerState.capturedBalls = 0;
