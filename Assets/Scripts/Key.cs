@@ -5,10 +5,11 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     private bool isCollected = false;
+    private LabyrinthKey labyrinthKey;
 
     private void Awake()
     {
-        LabyrinthKey labyrinthKey = GetComponentInParent<LabyrinthKey>();
+        labyrinthKey = GetComponentInParent<LabyrinthKey>();
         if (labyrinthKey != null)
         {
             labyrinthKey.RegisterKey(gameObject);
@@ -20,7 +21,10 @@ public class Key : MonoBehaviour
         if (!isCollected && other.GetComponent<Ball>() != null)
         {
             isCollected = true;
-            LabyrinthKey.Instance.CollectKey(gameObject);
+            if (labyrinthKey != null)
+            {
+                labyrinthKey.CollectKey(gameObject);
+            }
             Debug.Log("Key trigger activated by Ball.");
         }
     }
