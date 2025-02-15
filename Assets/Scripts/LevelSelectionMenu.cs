@@ -9,7 +9,8 @@ public class LevelSelectionMenu : MonoBehaviour
     public GameConfig gameConfig;
     public PlayerState playerState;
     public GameObject buttonPrefab;
-    public Transform gridLayout;
+    public GameObject selectMenu; 
+    [SerializeField] private GameObject LevelsPanel; 
 
     private void Start()
     {
@@ -18,14 +19,14 @@ public class LevelSelectionMenu : MonoBehaviour
 
     private void GenerateLevelButtons()
     {
-        foreach (Transform child in gridLayout)
+        foreach (Transform child in LevelsPanel.transform)
         {
             Destroy(child.gameObject);
         }
 
         for (int i = 0; i < gameConfig.labyrinthsStr.Length; i++)
         {
-            GameObject button = Instantiate(buttonPrefab, gridLayout);
+            GameObject button = Instantiate(buttonPrefab, LevelsPanel.transform);
             button.GetComponentInChildren<Text>().text = "Level " + (i + 1);
             int levelIndex = i;
             button.GetComponent<Button>().onClick.AddListener(() => OnLevelButtonClicked(levelIndex));
@@ -39,5 +40,10 @@ public class LevelSelectionMenu : MonoBehaviour
         SceneManager.LoadScene(1);
 
         Debug.Log("Level " + (levelIndex + 1) + " selected");
+    }
+
+    public void ToggleMenu()
+    {
+        selectMenu.SetActive(!selectMenu.activeSelf);
     }
 }
