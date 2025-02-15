@@ -6,6 +6,7 @@ public class Key : MonoBehaviour
 {
     private bool isCollected = false;
     private LabyrinthKey labyrinthKey;
+    public float rotationSpeed = 100f;
 
     private void Awake()
     {
@@ -13,6 +14,13 @@ public class Key : MonoBehaviour
         if (labyrinthKey != null)
         {
             labyrinthKey.RegisterKey(gameObject);
+        }
+    }
+    private void Update()
+    {
+        if (!isCollected)
+        {
+            transform.GetChild(0).Rotate(Vector3.right * rotationSpeed * Time.deltaTime);
         }
     }
 
