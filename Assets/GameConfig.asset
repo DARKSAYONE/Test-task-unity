@@ -13,13 +13,142 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   labyrinthsStr:
-  - Assets/Labyrinth_friut_test.prefab
-  - Assets/Labyrinth_friut_test.prefab
-  fanLabyrinthsStr: []
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 25.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 26.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 27.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 28.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 29.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 30.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 31.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 32.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_apple.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen_8.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_gen2_8.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_orange.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_bb_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_bb_2.prefab
+  - Assets/Resources/Prefabs/Boss/Labyrinth_boss_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_8.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial_10.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 21.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 22.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 23.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_2.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 5.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_watermeloon.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_8.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 8.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_10.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 10.prefab
+  - Assets/Resources/Prefabs/Boss/Labyrinth_boss_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_11.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_12.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_13.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 12.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 13.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_berry.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 14.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 15.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 16.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_14.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_15.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 17.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 18.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 19.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_8.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_peach.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_16.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_17.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_18.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_10.prefab
+  - Assets/Resources/Prefabs/Boss/Labyrinth_boss_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 20.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 21.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_2.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_12.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_13.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_14.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_4.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_5.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 22.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 23.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 24.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_15.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_16.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_17.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_7.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_8.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_6.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_18.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_19.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_20.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_10.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_11.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_12.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_7.prefab
+  fanLabyrinthsStr:
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_apple.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_berry.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_orange.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_peach.prefab
+  - Assets/Resources/Prefabs/Fruits/Labyrinth_watermeloon.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_1.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_2.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_3.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_4.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_5.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_6.prefab
+  - Assets/Resources/Prefabs/Fun/Labyrinth_fun_7.prefab
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
   ballMid: {fileID: 4803738439568453723, guid: 6e1e1ab17a5d0ca49aabbbb775f4175e, type: 3}
-  wavesCount: 1
+  wavesCount: 3
   backgroundsStr:
   - Assets/Resources/Textures/BG1.png
   - Assets/Resources/Textures/BG2.png

@@ -125,9 +125,6 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
         rotsum = 0f;
 
         playerState.Load();
-        //Временный дебаг
-        playerState.level = 0;
-        //-----------------------
 
         playerState.LevelStart();
 
@@ -398,11 +395,6 @@ public class Level : MonoBehaviour, IWaveObserver, ILevelObserver, ICaptureBallO
                 balls.Add(ball);
                 count++;
             }
-        }
-
-        if (newLab is LabyrinthFruit labyrinthFruit)
-        {
-            labyrinthFruit.ReplaceBallModels(balls);
         }
 
         ballsCountText.text = "x " + balls.Count;
