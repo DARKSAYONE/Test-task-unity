@@ -13,13 +13,75 @@ MonoBehaviour:
   m_Name: GameConfig
   m_EditorClassIdentifier: 
   labyrinthsStr:
-  - Assets/Labyrinth_friut_test.prefab
-  - Assets/Labyrinth_friut_test.prefab
+  - Assets/Resources/Prefabs/FruitLabs/Labyrinth_friut_test.prefab
+  - Assets/Resources/Prefabs/FruitLabs/Labyrinth_fruit_2.prefab
+  - Assets/Resources/Prefabs/FruitLabs/Labyrinth_fruit_3.prefab
+  - Assets/Resources/Prefabs/KeyLabs/Labyrinth_key_test.prefab
+  - Assets/Resources/Prefabs/KeyLabs/Labyrinth_key_2.prefab
+  - Assets/Resources/Prefabs/KeyLabs/Labyrinth_key_3.prefab
+  - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik.prefab
+  - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik_2.prefab
+  - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_19.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
   fanLabyrinthsStr: []
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
   ballMid: {fileID: 4803738439568453723, guid: 6e1e1ab17a5d0ca49aabbbb775f4175e, type: 3}
-  wavesCount: 1
+  wavesCount: 3
   backgroundsStr:
   - Assets/Resources/Textures/BG1.png
   - Assets/Resources/Textures/BG2.png
