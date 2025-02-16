@@ -71,12 +71,12 @@ MonoBehaviour:
   - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
   - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
   - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
-  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_sq_18.prefab
+  - Assets/Resources/Prefabs/Labyrinth_base 25.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_17.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_14.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tri_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_tutorial 27.prefab
   fanLabyrinthsStr: []
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}
