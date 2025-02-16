@@ -22,6 +22,61 @@ MonoBehaviour:
   - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik.prefab
   - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik_2.prefab
   - Assets/Resources/Prefabs/MyravenikLabs/Labyrinth_myravenik_3.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_9.prefab
+  - Assets/Resources/Prefabs/Labyrinth_hex_19.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
+  - Assets/Resources/Prefabs/Labyrinth_template_1.prefab
   fanLabyrinthsStr: []
   ball: {fileID: 4803738439568453723, guid: ef7f45f562fed4940b8d891a8ea3dc88, type: 3}
   ballBig: {fileID: 4803738439568453723, guid: b7516d6d81dd31c44af5ec7ddbb50a19, type: 3}

@@ -8,7 +8,6 @@ public class LabyrinthFruit : Labyrinth
 
     public void ReplaceBallModels(List<Ball> balls)
     {
-        //Debug.Log("ReplaceBall ON");
         foreach (var ball in balls)
         {
             var meshFilter = ball.GetComponent<MeshFilter>();

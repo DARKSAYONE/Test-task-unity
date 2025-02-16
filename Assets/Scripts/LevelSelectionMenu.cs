@@ -40,8 +40,6 @@ public class LevelSelectionMenu : MonoBehaviour
         playerState.level = levelIndex;
         playerState.Save();
         SceneManager.LoadScene(1);
-
-        Debug.Log("Level " + (levelIndex + 1) + " selected");
     }
 
     public void ToggleMenu()

@@ -16478,12 +16478,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationMultiplier: 500
   balls: []
-  roof: {fileID: 0}
+  roof: {fileID: 141947928340942253}
   isNeedLoonka: 0
   isNeedShadows: 0
   isBoss: 0
   keys: []
   door: {fileID: 3462128859614372915}
+  keysCollected: 0
+  totalKeys: 0
 --- !u!65 &5511413840698273588
 BoxCollider:
   m_ObjectHideFlags: 0

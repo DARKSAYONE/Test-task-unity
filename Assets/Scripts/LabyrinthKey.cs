@@ -45,7 +45,6 @@ public class LabyrinthKey : Labyrinth
         keysCollected++;
         keys.Remove(key);
         Destroy(key);
-        Debug.Log($"Key collected. Total keys collected: {keysCollected}/{totalKeys}");
         UpdateKeyCounter();
 
         if (keysCollected >= totalKeys)
@@ -58,13 +57,12 @@ public class LabyrinthKey : Labyrinth
     {
         if (keyCounterText != null)
         {
-            keyCounterText.text = $"Keys: {keysCollected}/{totalKeys}";
+            keyCounterText.text = $"{keysCollected}/{totalKeys}";
         }
     }
 
     private void OpenDoor()
     {
         door.SetActive(false);
-        Debug.Log("Door opened.");
     }
 }

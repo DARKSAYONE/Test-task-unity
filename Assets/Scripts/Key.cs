@@ -33,7 +33,6 @@ public class Key : MonoBehaviour
             {
                 labyrinthKey.CollectKey(gameObject);
             }
-            Debug.Log("Key trigger activated by Ball.");
         }
     }
 }
