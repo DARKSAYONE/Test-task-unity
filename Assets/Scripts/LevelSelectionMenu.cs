@@ -9,8 +9,8 @@ public class LevelSelectionMenu : MonoBehaviour
     public GameConfig gameConfig;
     public PlayerState playerState;
     public GameObject buttonPrefab;
-    public GameObject selectMenu; 
-    [SerializeField] private GameObject LevelsPanel; 
+    public GameObject selectMenu;
+    [SerializeField] private GameObject LevelsPanel;
 
     private void Start()
     {
@@ -24,7 +24,9 @@ public class LevelSelectionMenu : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        for (int i = 0; i < gameConfig.labyrinthsStr.Length; i++)
+        int numberOfLevels = Mathf.CeilToInt(gameConfig.labyrinthsStr.Length / (float)gameConfig.wavesCount);
+
+        for (int i = 0; i < numberOfLevels; i++)
         {
             GameObject button = Instantiate(buttonPrefab, LevelsPanel.transform);
             button.GetComponentInChildren<Text>().text = "Level " + (i + 1);
@@ -47,3 +49,5 @@ public class LevelSelectionMenu : MonoBehaviour
         selectMenu.SetActive(!selectMenu.activeSelf);
     }
 }
+
+
